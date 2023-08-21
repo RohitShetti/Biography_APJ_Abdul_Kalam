@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-color:#e5e5fd;
+    min-height: 100vh;
+    border: 10px solid black;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0px auto;
+    }
+
+.imagecontainer{
+    border-radius: 90px;
+    overflow: hidden;
+}
+
+
+.imagecontainer,img{
+    width: 300px;
+    height: 350px;
+}
+
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    align-items: end;
+}
+
+.top_section h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.top_section h4{
+    text-align: end;
+    font-size:20px ;
+    font-weight: bold ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.about-section{
+
+    margin-top: 20px;
+}
+.about-section h2{
+    font-size: 55px;
+    font-weight: 400;
+
+}
+
+.about-section p{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height:30px;
+    letter-spacing: 1.2;
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bio{
+    margin: 50px 0;
+}
+
+.bio h3{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.bio ul{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.bio li{
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer{
+    margin:50px 0;
+}
+
+footer p{
+    text-align: end;
+}
